@@ -1,10 +1,14 @@
 # Insurance-Price-Prediction
 
 
-Dataset: https://drive.google.com/file/d/1NBk1TFkK4NeKdodR2DxIdBp2Mk1mh4AS/view?usp=drive_link 
-Problem Statement
-Insurance companies need to accurately predict the cost of health insurance for individuals to set premiums appropriately. However, traditional methods of cost prediction often rely on broad actuarial tables and historical averages, which may not account for the nuanced differences among individuals. By leveraging machine learning techniques, insurers can predict more accurately the insurance costs tailored to individual profiles, leading to more competitive pricing and better risk management.
-Insurance Cost Prediction need
+## Dataset: https://drive.google.com/file/d/1NBk1TFkK4NeKdodR2DxIdBp2Mk1mh4AS/view?usp=drive_link 
+
+## Problem Statement
+
+ Insurance companies need to accurately predict the cost of health insurance for individuals to set premiums appropriately. However, traditional methods of cost prediction often rely on broad actuarial tables and historical averages, which may not account for the nuanced differences among individuals. By leveraging machine learning techniques, insurers can predict more accurately the insurance costs tailored to individual profiles, leading to more competitive pricing and better risk management.
+ 
+## Insurance Cost Prediction need
+
 The primary need for this project arises from the challenges insurers face in pricing policies accurately while remaining competitive in the market. Inaccurate predictions can lead to losses for insurers and unfairly high premiums for policyholders. By implementing a machine learning model, insurers can:
 Enhance Precision in Pricing: Use individual data points to determine premiums that reflect actual risk more closely than generic estimates.
 Increase Competitiveness: Offer rates that are attractive to consumers while ensuring that the pricing is sustainable for the insurer.
@@ -16,7 +20,8 @@ Strategic Decision Making: Predictive analytics can aid in broader strategic dec
 Customer Engagement: Insights from the model can be used in customer engagement initiatives, such as personalized marketing and tailored advice for policyholders.
 
 
-Data description
+## Data description
+
 The dataset comprises the following 11 attributes:
 Age: Numeric, ranging from 18 to 66 years.
 Diabetes: Binary (0 or 1), where 1 indicates the presence of diabetes.
@@ -30,10 +35,12 @@ HistoryOfCancerInFamily: Binary (0 or 1), indicating a family history of cancer.
 NumberOfMajorSurgeries: Numeric, counting the number of major surgeries, ranging from 0 to 3 surgeries.
 PremiumPrice: Numeric, representing the premium price in currency, ranging from 15,000 to 40,000.
 
-Block 1 Tableau Visualization
+# Block 1 Tableau Visualization
+
 The core idea is to harness the power of visual analytics to dissect the complex relationships between individual health profiles and insurance costs. By visualizing these relationships, insurers can gain a clearer understanding of the factors that most significantly influence premium prices, allowing for more accurate and equitable pricing models.
 
-Goal
+# Goal
+
 The goal of this dashboard is threefold:
 Visualization of Key Data Points: To clearly display the distribution and impact of various health-related factors on insurance premiums.
 Predictive Analysis: To apply statistical tools within Tableau to predict insurance costs based on individual risk factors, aiding in better premium setting.
